@@ -1,0 +1,11 @@
+{
+  "datas":[
+    {"data_id": 1,"key": "post_basket_002_01","data":"{\"cck\":\"${cck}\",  \"offer\":\"${offer}\"}"},
+    {"data_id": 2,"key": "post_basket_002_02","data":"{\n  \"cck\":\"${cck}\",\n  \"offer\":\"${offer}\",\n  \"bundleContextKey\":\"${bundleContextKey}\",\n  \"parentHierarchyPath\":\"${parentHierarchyPath}\",\n  \"parentLineItemKey\":\"${parentLineItemKey}\"\n}"},
+    {"data_id": 3,"key": "put_basket_001","data":"{\n  \"cck\":\"${cck}\",\n  \"offer\":\"${offer}\",\n  \"bundle_context_key\":\"${bundle_context_key}\",\n  \"line_item_key\":\"${line_item_key}\",\n  \"attributes\":[\n    {\"code\":\"${attributes.code}\",\"value\":\"${attributes.value}\"}\n  ]\n}"},
+    {"data_id": 4,"key": "post_signup","data":"{\n  \"first-name\":\"Test\",\n  \"last-name\":\"CypressAPI\",\n  \"email\":\"${EMAIL_SIGNUP}@sky.com\",\n  \"password\":\"${PIN_SIGNUP}\",\n  \"marketing-permission\":true,\n  \"birth-day\":\"7\",\n  \"birth-month\":\"1\",\n  \"birth-year\":\"1990\",\n  \"cck\":\"${cck}\",\n  \"phone\":\"+4912132411223\"\n}"},
+    {"data_id": 5,"key": "post_address","data":"{\"addresses\":[{\"street_name\":\"Blutenburgstraße\",\"house_number\":\"28\",\"addit_address\":\"\",\"postal_code\":\"80636\",\"city\":\"München\",\"address_type\":\"billing\",\"country\":\"DE\"}]}"},
+    {"data_id": 6,"key": "post_mop","data":"{\"mop\":{\"type\":\"directDebit\",\"parameters\":{\"bic\":\"\",\"iban\":\"${iban}\",\"bank-account-holder-name\":\"Endtoend Testuser\"}}}"},
+    {"data_id": 7,"key": "post_summary","data":"{\"cck\":\"${cck}\"}"}
+  ]
+}
